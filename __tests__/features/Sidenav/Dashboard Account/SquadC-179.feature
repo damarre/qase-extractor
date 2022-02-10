@@ -1,6 +1,6 @@
 Fature: Dashboard Account
 
-@SquadC-179	@automated
+@SquadC-179 @automated
 Scenario: User successfully view user's subscription status
 Given User navigate to email login page via url
 And User input registered email and registered password

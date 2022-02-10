@@ -1,6 +1,6 @@
 Fature: Akun
 
-@SquadC-137	@automated
+@SquadC-137 @automated
 Scenario: User able to access Tanya Jawab pages from menu Akun
 Given User on Kompasid onboarding
  And User skip onboading

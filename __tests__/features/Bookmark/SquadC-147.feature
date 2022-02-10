@@ -1,6 +1,6 @@
 Fature: Bookmark
 
-@SquadC-147	@automated
+@SquadC-147 @automated
 Scenario: User Successfully Bookmark Article With Tap On Bookmark Icon in Article Details
 Given User navigate to email login page via url
 When User input registered email and registered password

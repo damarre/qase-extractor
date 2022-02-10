@@ -1,6 +1,6 @@
 Fature: Akun
 
-@SquadC-133	@automated
+@SquadC-133 @automated
 Scenario: User able to access Baca Nanti pages from menu Akun
 Given User on Kompasid onboarding
  And User skip onboading

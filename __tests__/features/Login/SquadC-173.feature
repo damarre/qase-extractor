@@ -1,6 +1,6 @@
 Fature: Login
 
-@SquadC-173	@automated
+@SquadC-173 @automated
 Scenario: User Get Error Login With Empty Email
 Given User on Kompasid onboarding
 And User skip onboarding

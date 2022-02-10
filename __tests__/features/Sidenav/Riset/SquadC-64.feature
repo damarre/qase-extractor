@@ -1,6 +1,6 @@
 Fature: Riset
 
-@SquadC-64	@automated
+@SquadC-64 @automated
 Scenario: User Successfully VIew Article List WIth Tap on Riset Submenu
 Given User on Kompasid onboarding
 And User skip onboading

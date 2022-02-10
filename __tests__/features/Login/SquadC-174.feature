@@ -1,6 +1,6 @@
 Fature: Login
 
-@SquadC-174	@automated
+@SquadC-174 @automated
 Scenario: User Get Error Login With Empty Password
 Given User on Kompasid onboarding
 And User skip onboarding

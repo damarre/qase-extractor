@@ -1,6 +1,6 @@
 Fature: Homepage
 
-@SquadC-4	@automated
+@SquadC-4 @automated
 Scenario: User able to access Terbaru pages from Home page
 Given User on Kompasid onboarding
 And User skip onboading

@@ -1,6 +1,6 @@
 Fature: Nusantara
 
-@SquadC-72	@automated
+@SquadC-72 @automated
 Scenario: User Successfully VIew Article List WIth Tap on Nusantara Submenu
 Given User on Kompasid onboarding
 And User skip onboading

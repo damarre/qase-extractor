@@ -1,6 +1,6 @@
 Fature: Akun
 
-@SquadC-131	@automated
+@SquadC-131 @automated
 Scenario: User able to access Dasbor pages from menu Akun
 Given User on Kompasid onboarding
  And User skip onboading

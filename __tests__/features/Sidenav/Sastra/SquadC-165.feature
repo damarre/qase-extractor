@@ -1,6 +1,6 @@
 Fature: Sastra
 
-@SquadC-165	@tobeautomated
+@SquadC-165 @tobeautomated
 Scenario: User Successfully VIew Article List WIth Tap on Sastra Submenu
 Given User on Kompasid onboarding
 And User skip onboading

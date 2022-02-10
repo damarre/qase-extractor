@@ -1,6 +1,6 @@
 Fature: Opini
 
-@SquadC-48	@automated
+@SquadC-48 @automated
 Scenario: User Successfully VIew Article List WIth Tap on Opini Submenu
 Given User on Kompasid onboarding
 And User skip onboading

@@ -1,6 +1,6 @@
 Fature: Tutur Visual
 
-@SquadC-157	@tobeautomated
+@SquadC-157 @tobeautomated
 Scenario: User Successfully VIew Article List WIth Tap on Tutur Visual Submenu
 Given User on Kompasid onboarding
 And User skip onboading

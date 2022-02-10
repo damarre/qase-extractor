@@ -1,6 +1,6 @@
 Fature: Register
 
-@SquadC-6	@automated
+@SquadC-6 @automated
 Scenario: User Get Error Register With Empty Email
 Given User on Kompasid onboarding
 And User skip onboading

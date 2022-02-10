@@ -1,6 +1,6 @@
 Fature: Video
 
-@SquadC-161	@tobeautomated
+@SquadC-161 @tobeautomated
 Scenario: User Successfully VIew Article List WIth Tap on Video Submenu
 Given User on Kompasid onboarding
 And User skip onboading

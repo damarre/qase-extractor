@@ -1,6 +1,6 @@
 Fature: Search
 
-@SquadC-8	@automated
+@SquadC-8 @automated
 Scenario: User successfully search article
 Given User on kompasid onboarding
 And User skip onboading

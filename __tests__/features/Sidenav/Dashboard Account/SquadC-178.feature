@@ -1,6 +1,6 @@
 Fature: Dashboard Account
 
-@SquadC-178	@automated
+@SquadC-178 @automated
 Scenario: User successfully edit account on dasbor akun saya
 Given User navigate to email login page via url
 And User input registered email and registered password

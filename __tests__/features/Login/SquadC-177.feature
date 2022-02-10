@@ -1,6 +1,6 @@
 Fature: Login
 
-@SquadC-177	@automated
+@SquadC-177 @automated
 Scenario: User Get Error Login With Invalid Format Email
 Given User on Kompasid onboarding
 And User skip onboarding

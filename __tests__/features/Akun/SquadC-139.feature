@@ -1,6 +1,6 @@
 Fature: Akun
 
-@SquadC-139	@automated
+@SquadC-139 @automated
 Scenario: User able to access Tentang Harian Kompas pages from menu Akun
 Given User on Kompasid onboarding
  And User skip onboading

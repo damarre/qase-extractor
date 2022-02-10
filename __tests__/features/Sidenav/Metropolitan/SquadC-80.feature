@@ -1,6 +1,6 @@
 Fature: Metropolitan
 
-@SquadC-80	@automated
+@SquadC-80 @automated
 Scenario: User Successfully VIew Article List WIth Tap on Metropolitan Submenu
 Given User on Kompasid onboarding
 And User skip onboading

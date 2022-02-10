@@ -1,6 +1,6 @@
 Fature: Politik Hukum
 
-@SquadC-24	@automated
+@SquadC-24 @automated
 Scenario: User Successfully VIew Article List WIth Tap on Politik Hukum Submenu
 Given User on Kompasid onboarding
 And User skip onboading

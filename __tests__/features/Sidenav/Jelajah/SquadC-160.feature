@@ -1,6 +1,6 @@
 Fature: Jelajah
 
-@SquadC-160	@tobeautomated
+@SquadC-160 @tobeautomated
 Scenario: User Successfully VIew Article List WIth Tap on Jelajah Submenu
 Given User on Kompasid onboarding
 And User skip onboading

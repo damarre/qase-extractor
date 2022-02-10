@@ -1,6 +1,6 @@
 Fature: Infografik
 
-@SquadC-159	@tobeautomated
+@SquadC-159 @tobeautomated
 Scenario: User Successfully VIew Article List WIth Tap on Infografik Submenu
 Given User on Kompasid onboarding
 And User skip onboading

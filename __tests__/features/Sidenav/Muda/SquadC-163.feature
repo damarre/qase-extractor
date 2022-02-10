@@ -1,6 +1,6 @@
 Fature: Muda
 
-@SquadC-163	@tobeautomated
+@SquadC-163 @tobeautomated
 Scenario: User Successfully VIew Article List WIth Tap on Muda Submenu
 Given User on Kompasid onboarding
 And User skip onboading

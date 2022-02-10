@@ -1,6 +1,6 @@
 Fature: Login
 
-@SquadC-176	@automated
+@SquadC-176 @automated
 Scenario: User Get Error Login With Mismatch Password
 Given User on Kompasid onboarding
 And User skip onboarding

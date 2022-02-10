@@ -1,6 +1,6 @@
 Fature: Internasional
 
-@SquadC-88	@automated
+@SquadC-88 @automated
 Scenario: User Successfully VIew Article List WIth Tap on Internasional Internasional
 Given User on Kompasid onboarding
 And User skip onboading

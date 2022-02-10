@@ -1,6 +1,6 @@
 Fature: Gaya Hidup
 
-@SquadC-158	@tobeautomated
+@SquadC-158 @tobeautomated
 Scenario: User Successfully VIew Article List WIth Tap on Gaya Hidup Submenu
 Given User on Kompasid onboarding
 And User skip onboading

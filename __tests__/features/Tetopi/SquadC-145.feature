@@ -1,6 +1,6 @@
 Fature: Tetopi
 
-@SquadC-145	@automated
+@SquadC-145 @automated
 Scenario: User play tetopi from detail article
 Given User navigate to email login page via url
  And User input registered email and registered password

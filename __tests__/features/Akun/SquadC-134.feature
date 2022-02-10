@@ -1,6 +1,6 @@
 Fature: Akun
 
-@SquadC-134	@automated
+@SquadC-134 @automated
 Scenario: User able to access Promo pages from menu Akun
 Given User on Kompasid onboarding
  And User skip onboading

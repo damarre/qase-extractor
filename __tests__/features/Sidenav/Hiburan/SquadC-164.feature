@@ -1,6 +1,6 @@
 Fature: Hiburan
 
-@SquadC-164	@tobeautomated
+@SquadC-164 @tobeautomated
 Scenario: User Successfully VIew Article List WIth Tap on Hiburan Submenu
 Given User on Kompasid onboarding
 And User skip onboading

@@ -1,6 +1,6 @@
 Fature: Wirausaha
 
-@SquadC-40	@automated
+@SquadC-40 @automated
 Scenario: User Successfully VIew Article List WIth Tap on Wirausaha Submenu
 Given User on Kompasid onboarding
 And User skip onboading

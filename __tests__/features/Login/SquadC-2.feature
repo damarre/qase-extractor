@@ -1,6 +1,6 @@
 Fature: Login
 
-@SquadC-2	@automated
+@SquadC-2 @automated
 Scenario: User successfully login via onboarding page
 Given User on Kompasid onboarding
 And User skip onboading

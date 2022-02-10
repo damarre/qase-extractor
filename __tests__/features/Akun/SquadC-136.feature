@@ -1,6 +1,6 @@
 Fature: Akun
 
-@SquadC-136	@automated
+@SquadC-136 @automated
 Scenario: User able to access Hubungi Kami pages from menu Akun
 Given User on Kompasid onboarding
  And User skip onboading

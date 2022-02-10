@@ -1,6 +1,6 @@
 Fature: Akun
 
-@SquadC-138	@automated
+@SquadC-138 @automated
 Scenario: User able to access Tentang Aplikasi pages from menu Akun
 Given User on Kompasid onboarding
  And User skip onboading

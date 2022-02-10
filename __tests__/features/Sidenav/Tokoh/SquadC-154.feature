@@ -1,6 +1,6 @@
 Fature: Tokoh
 
-@SquadC-154	@tobeautomated
+@SquadC-154 @tobeautomated
 Scenario: User Successfully VIew Article List WIth Tap on Tokoh Submenu
 Given User on Kompasid onboarding
 And User skip onboading
