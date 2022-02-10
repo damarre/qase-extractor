@@ -30,7 +30,7 @@ qase.suites.getAll(projectName, {limit: 100, offset: 0}).then((res) => {
           cases.data.entities.forEach(function (data, index) {
             // console.log(data)
             fs.appendFileSync('./__tests__/features/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , 'Fature: ' + item.title + '\n\n', 'utf8');
-            fs.appendFileSync('./__tests__/features/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , '@' + projectName + '-' + data.id + '\t', 'utf8');
+            fs.appendFileSync('./__tests__/features/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , '@' + projectName + '-' + data.id + ' ', 'utf8');
             fs.appendFileSync('./__tests__/features/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , '@' + automation[data.automation] + '\n', 'utf8');
             fs.appendFileSync('./__tests__/features/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , 'Scenario: ' + data.title + '\n', 'utf8');
             data.steps.forEach(function(scenario, index){
@@ -51,7 +51,7 @@ qase.suites.getAll(projectName, {limit: 100, offset: 0}).then((res) => {
             cases.data.entities.forEach(function (data, index) {
               // console.log(data)
               fs.appendFileSync('./__tests__/features/' + res.data.title + '/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , 'Fature: ' + item.title + '\n\n', 'utf8');
-              fs.appendFileSync('./__tests__/features/' + res.data.title + '/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , '@' + projectName + '-' + data.id + '\t', 'utf8');
+              fs.appendFileSync('./__tests__/features/' + res.data.title + '/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , '@' + projectName + '-' + data.id + ' ', 'utf8');
               fs.appendFileSync('./__tests__/features/' + res.data.title + '/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , '@' + automation[data.automation] + '\n', 'utf8');
               fs.appendFileSync('./__tests__/features/' + res.data.title + '/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , 'Scenario: ' + data.title + '\n', 'utf8');
               data.steps.forEach(function(scenario, index){

@@ -1,6 +1,6 @@
 Fature: Ekonomi
 
-@SquadC-32	@automated
+@SquadC-32 @automated
 Scenario: User Successfully VIew Article List WIth Tap on Ekonomi Submenu
 Given User on Kompasid onboarding
 And User skip onboading
