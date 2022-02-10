@@ -1,6 +1,7 @@
-Fature: User able to access Bebas Akses pages from Home page
+Fature: Homepage
 
-Scenario: null
+@SquadC-141	@automated
+Scenario: User able to access Bebas Akses pages from Home page
  Given User navigate to email login page via url
 And User input registered email and registered password
  And User on Kompasid homepage

@@ -1,6 +1,7 @@
-Fature: User able to access Tentang Aplikasi pages from menu Akun
+Fature: Akun
 
-Scenario: null
+@SquadC-138	@automated
+Scenario: User able to access Tentang Aplikasi pages from menu Akun
 Given User on Kompasid onboarding
  And User skip onboading
 And Subscription page will have displayed

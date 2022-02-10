@@ -1,6 +1,7 @@
-Fature: User Get Error Login With Mismatch Password
+Fature: Login
 
-Scenario: null
+@SquadC-176	@automated
+Scenario: User Get Error Login With Mismatch Password
 Given User on Kompasid onboarding
 And User skip onboarding
 And Subscription page will have displayed

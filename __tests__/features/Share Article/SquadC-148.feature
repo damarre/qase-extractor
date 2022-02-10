@@ -1,5 +1,6 @@
-Fature: User Successfully Share Article Title To Email With Tap On Share Icon in Cardthumb
+Fature: Share Article
 
-Scenario: null
+@SquadC-148	@automated
+Scenario: User Successfully Share Article Title To Email With Tap On Share Icon in Cardthumb
 When User tap share on kompasid homepage
 Then Social Media will displayed

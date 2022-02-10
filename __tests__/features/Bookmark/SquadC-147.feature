@@ -1,6 +1,7 @@
-Fature: User Successfully Bookmark Article With Tap On Bookmark Icon in Article Details
+Fature: Bookmark
 
-Scenario: null
+@SquadC-147	@automated
+Scenario: User Successfully Bookmark Article With Tap On Bookmark Icon in Article Details
 Given User navigate to email login page via url
 When User input registered email and registered password
 Then User on Kompasid homepage

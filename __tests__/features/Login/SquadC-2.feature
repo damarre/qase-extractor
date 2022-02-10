@@ -1,6 +1,7 @@
-Fature: User successfully login via onboarding page
+Fature: Login
 
-Scenario: Scenario Login
+@SquadC-2	@automated
+Scenario: User successfully login via onboarding page
 Given User on Kompasid onboarding
 And User skip onboading
 And Subscription page will have displayed

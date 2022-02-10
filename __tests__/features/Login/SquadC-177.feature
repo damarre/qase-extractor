@@ -1,6 +1,7 @@
-Fature: User Get Error Login With Invalid Format Email
+Fature: Login
 
-Scenario: null
+@SquadC-177	@automated
+Scenario: User Get Error Login With Invalid Format Email
 Given User on Kompasid onboarding
 And User skip onboarding
 And Subscription page will have displayed

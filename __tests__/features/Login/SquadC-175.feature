@@ -1,6 +1,7 @@
-Fature: User Get Error Login With Empty Password And Email
+Fature: Login
 
-Scenario: null
+@SquadC-175	@automated
+Scenario: User Get Error Login With Empty Password And Email
 Given User on Kompasid onboarding
 And User skip onboarding
 And Subscription page will have displayed

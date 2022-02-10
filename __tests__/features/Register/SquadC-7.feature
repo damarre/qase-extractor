@@ -1,6 +1,7 @@
-Fature: User Get Error Register With Empty Password
+Fature: Register
 
-Scenario: null
+@SquadC-7	@automated
+Scenario: User Get Error Register With Empty Password
 Given User on Kompasid onboarding
 And User skip onboading
 And Subscription page will have displayed

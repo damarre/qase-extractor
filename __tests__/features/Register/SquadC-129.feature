@@ -1,6 +1,7 @@
-Fature: User get error Register With Invalid Email
+Fature: Register
 
-Scenario: null
+@SquadC-129	@automated
+Scenario: User get error Register With Invalid Email
 Given User on Kompasid onboarding
 And User skip onboading
 And Subscription page will have displayed

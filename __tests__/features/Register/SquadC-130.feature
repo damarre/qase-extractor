@@ -1,6 +1,7 @@
-Fature: User Get Error Register With Password Length Less Than 6 Characters
+Fature: Register
 
-Scenario: null
+@SquadC-130	@automated
+Scenario: User Get Error Register With Password Length Less Than 6 Characters
 Given User on Kompasid onboarding
 And User skip onboading
 And Subscription page will have displayed

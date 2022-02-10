@@ -1,3 +1,4 @@
-Fature: User Successfully View Semua Buku Page With Tap On Semua Buku Link
+Fature: Buku
 
-Scenario: null
+@SquadC-16	@tobeautomated
+Scenario: User Successfully View Semua Buku Page With Tap On Semua Buku Link

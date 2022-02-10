@@ -1,6 +1,7 @@
-Fature: User play tetopi from homepage
+Fature: Tetopi
 
-Scenario: null
+@SquadC-144	@automated
+Scenario: User play tetopi from homepage
 Given User navigate to email login page via url
  And User input registered email and registered password
 And User on Kompasid homepage
