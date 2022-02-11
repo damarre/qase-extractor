@@ -34,7 +34,7 @@ qase.suites.getAll(projectName, {limit: 100, offset: 0}).then((res) => {
             fs.appendFileSync('./__tests__/features/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , '@' + automation[data.automation] + '\n', 'utf8');
             fs.appendFileSync('./__tests__/features/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , '  Scenario: ' + data.title + '\n', 'utf8');
             if (data.preconditions != null){
-              fs.appendFileSync('./__tests__/features/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , data.preconditions.replace("\n", "\n ") + '\n', 'utf8');
+              fs.appendFileSync('./__tests__/features/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , data.preconditions.replace("And", "\tAnd") + '\n', 'utf8');
             }
             data.steps.forEach(function(scenario, index){
               fs.appendFileSync('./__tests__/features/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , '    ', 'utf8');
@@ -60,7 +60,7 @@ qase.suites.getAll(projectName, {limit: 100, offset: 0}).then((res) => {
               fs.appendFileSync('./__tests__/features/' + res.data.title + '/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , '  Scenario: ' + data.title + '\n', 'utf8');
               if (data.preconditions != null){
                 fs.appendFileSync('./__tests__/features/' + res.data.title + '/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , '    ', 'utf8');
-                fs.appendFileSync('./__tests__/features/' + res.data.title + '/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , data.preconditions.replace("\n", "\n ") + '\n', 'utf8');
+                fs.appendFileSync('./__tests__/features/' + res.data.title + '/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , data.preconditions.replace("And", "\tAnd") + '\n', 'utf8');
               }
               data.steps.forEach(function(scenario, index){
                 fs.appendFileSync('./__tests__/features/' + res.data.title + '/' + item.title + '/' +  projectName + '-' + data.id + '.feature' , '    ', 'utf8');
