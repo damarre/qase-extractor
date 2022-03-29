@@ -45,7 +45,6 @@ request(suiteOptions, function (error, response, body) {
             fs.appendFileSync(path , 'Fature: ' + item.title + '\n\n', 'utf8');
             fs.appendFileSync(path , '@' + item.title+ ' ', 'utf8');
             fs.appendFileSync(path , '@' + projectName + '-' + data.id + ' ', 'utf8');
-            fs.appendFileSync(path , '@' + projectName + '-' + data.id + ' ', 'utf8');
             fs.appendFileSync(path , '@' + automation[data.automation] + '\n', 'utf8');
             fs.appendFileSync(path , '  Scenario: ' + data.title + '\n', 'utf8');
 
