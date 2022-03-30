@@ -42,7 +42,7 @@ request(suiteOptions, function (error, response, body) {
           testCase.forEach(function (data, index) {
             let path = './__tests__/features/' + item.title + '/' +  projectName + '-' + data.id + '.feature'
 
-            fs.appendFileSync(path , 'Fature: ' + item.title + '\n\n', 'utf8');
+            fs.appendFileSync(path , 'Feature: ' + item.title + '\n\n', 'utf8');
             fs.appendFileSync(path , '@' + item.title+ ' ', 'utf8');
             fs.appendFileSync(path , '@' + projectName + '-' + data.id + ' ', 'utf8');
             fs.appendFileSync(path , '@' + automation[data.automation] + '\n', 'utf8');
@@ -94,7 +94,7 @@ request(suiteOptions, function (error, response, body) {
               testCase.forEach(function (data, index) {
                 // console.log(data)
                 let path = './__tests__/features/' + fileName.result.title + '/' + item.title + '/' +  projectName + '-' + data.id + '.feature' 
-                fs.appendFileSync(path , 'Fature: ' + item.title + '\n\n', 'utf8');
+                fs.appendFileSync(path , 'Feature: ' + item.title + '\n\n', 'utf8');
                 fs.appendFileSync(path , '@' + item.title+ ' ', 'utf8');
                 fs.appendFileSync(path , '@' + projectName + '-' + data.id + ' ', 'utf8');
                 fs.appendFileSync(path , '@' + automation[data.automation] + '\n', 'utf8');
